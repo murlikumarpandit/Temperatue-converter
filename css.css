@@ -1,0 +1,67 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: "Mulish", sans-serif;
+}
+
+body {
+    width: 100vm;
+    height: 100vm;
+    background-color: turquoise;
+    background-image: url("https://th.bing.com/th/id/OIP.yX6-Igkt9adMkEMFAjeSgAHaEL?w=284&h=184&c=7&r=0&o=5&dpr=1.3&pid=1.7");
+    display: grid;
+    place-items: center;
+}
+
+form {
+    background-color: peru;
+    padding: 100px;
+    color: blue;
+    height: 80;
+    width: 70%;
+    border-radius: 100px;
+    margin: 100px auto;
+    text-align: center;
+}
+
+#tempcalc label {
+    font-size: 48px;
+    color: blueviolet;
+}
+
+#temp {
+    border: none;
+    font-style: initial;
+    padding: 20px;
+    height: 50px;
+    width: 100px;
+    font-size: 20px;
+    margin-top: 20px;
+}
+
+#temp_diff {
+    height: 50px;
+    color: blue;
+    border: none;
+    margin-top: 20px;
+    font-size: 15px;
+    vertical-align: top;
+}
+
+[type="submit"] {
+
+    height: 40px;
+    margin: 20px;
+    width: 100px;
+    font-size: 17px;
+    border: none;
+    border-radius: 80px;
+    background-color: rgb(54, 63, 63);
+    color: white;
+}
+
+#resultContainer {
+    font-size: 40px;
+    color: red;
+}
